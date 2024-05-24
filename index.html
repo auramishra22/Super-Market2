@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Supermarket</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Our Supermarket</h2>
+            <p>Find the best products at unbeatable prices.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/product1.jpg" alt="Fresh Apples">
+                    <h3>Fresh Apples</h3>
+                    <p>$3.00 per lb</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/product2.jpg" alt="Organic Bananas">
+                    <h3>Organic Bananas</h3>
+                    <p>$1.50 per lb</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/product3.jpg" alt="Almond Milk">
+                    <h3>Almond Milk</h3>
+                    <p>$4.00 each</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/product4.jpg" alt="Bread Loaf">
+                    <h3>Bread Loaf</h3>
+                    <p>$2.50 each</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/product5.jpg" alt="Organic Carrots">
+                    <h3>Organic Carrots</h3>
+                    <p>$2.00 per lb</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/product6.jpg" alt="Fresh Tomatoes">
+                    <h3>Fresh Tomatoes</h3>
+                    <p>$2.50 per lb</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <!-- Add more product items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our supermarket offers the best quality products at affordable prices. We believe in providing our customers with fresh, organic, and locally sourced items. Our mission is to ensure a delightful shopping experience for everyone.</p>
+            <p>Founded in 2024, our store has grown to become a trusted name in the community. We are dedicated to sustainability and supporting local farmers. Come visit us to discover a wide variety of products that cater to all your needs.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Supermarket. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
